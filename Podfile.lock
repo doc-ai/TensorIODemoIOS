@@ -1,0 +1,35 @@
+PODS:
+  - DSJSONSchemaValidation (2.0.7)
+  - TensorFlowLiteC (2.5.0):
+    - TensorFlowLiteC/Core (= 2.5.0)
+  - TensorFlowLiteC/Core (2.5.0)
+  - TensorFlowLiteObjC (2.5.0):
+    - TensorFlowLiteObjC/Core (= 2.5.0)
+  - TensorFlowLiteObjC/Core (2.5.0):
+    - TensorFlowLiteC (= 2.5.0)
+  - TensorIO/Core (1.2.5):
+    - DSJSONSchemaValidation
+  - TensorIO/TFLite (1.2.5):
+    - DSJSONSchemaValidation
+    - TensorFlowLiteObjC
+    - TensorIO/Core
+
+DEPENDENCIES:
+  - TensorIO/TFLite
+
+SPEC REPOS:
+  trunk:
+    - DSJSONSchemaValidation
+    - TensorFlowLiteC
+    - TensorFlowLiteObjC
+    - TensorIO
+
+SPEC CHECKSUMS:
+  DSJSONSchemaValidation: 46e30ccfa9908c49d184f453d556f55aa0aac1ff
+  TensorFlowLiteC: 9115580176f050caa70fea478dba3d5a75c612a4
+  TensorFlowLiteObjC: ca140779f6aa191a28af169a11297feca4040c46
+  TensorIO: 5e794ef10ae651002878e05cc3547fddbc3c4de0
+
+PODFILE CHECKSUM: f192329801be6399cd6b1da5607bebff5ef65d31
+
+COCOAPODS: 1.10.1
