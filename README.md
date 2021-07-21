@@ -3,8 +3,8 @@
 ## Getting started
 1. Run `pod install`
 2. Open `TensorIODemoIOS.xcworkspace` using XCode
-3. Run the app
-4. Add the phenomenal-face.tiobundle into your XCode project (within the TensorIODemoIOS folder)
+3. Add the phenomenal-face.tiobundle into your XCode project (within the TensorIODemoIOS folder)
+4. Run the app
 
 ## How to use the app
 1. Take a selfie
